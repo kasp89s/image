@@ -1,0 +1,64 @@
+/** Stage container **/
+
+.connected-carousels .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.connected-carousels .photo-credits a {
+    color: #fff;
+}
+
+/** Navigation container **/
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.connected-carousels .carousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.connected-carousels .carousel li {
+    float: left;
+}
+
+/** Stage carousel specific styles **/
+
+
+
+/** Navigation carousel specific styles **/
+.connected-carousels .carousel-navigation {
+    position: relative;
+    margin: 0 auto 22px auto;
+    width: 620px;
+}
+
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;
+    margin: 0 2px 0 0;
+}
+
+.connected-carousels .carousel-navigation li img {
+    height: 68px;
+    border: 1px solid #c4c4c4;
+    width: auto !important;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+    border-color: #42b701;
+}
+
+/** Stage carousel controls **/
+
